@@ -227,6 +227,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+@media (max-width: 992px) {
+  .navigator {
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+  }
+
+  .navbar-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+}
+
 #stars {
   z-index: -1;
   width: 100%;
@@ -374,8 +389,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .job-row {
   display: flex;
   padding-top: 15px;
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media (min-width: 768px) {
+  .job-row {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
 }
 
 .company {

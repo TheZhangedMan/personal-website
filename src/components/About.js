@@ -93,7 +93,7 @@ export const About = () => {
                     <div>
                         <h1 className="header" data-aos="fade-right">ABOUT</h1>
                         <p className="quote" data-aos="fade-right">
-                            "From the moment I realized the weakness of my flesh, I used machines to find my strength."
+                            "No matter how much I consumed and consumed, I still found myself starving to learn more."
                         </p>
                         <p className="blurb" data-aos="fade-right">
                             Welcome. My name is Ethan Zhang. I am a second-year student specializing in Computer Science at the University of Toronto. I am incredibly invested in making use of programming and technology to solve the problems that may be encountered in a day-to-day basis. Some other interests that I have related to my field include machine learning, game development, design, and cryptography. In my free time, you can catch me learning a new programming language, playing the piano or guitar, or learning how to cook.
