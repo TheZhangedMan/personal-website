@@ -10,7 +10,9 @@ import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer'
 
-AOS.init();
+AOS.init({
+  once: true,
+});
 
 function App() {
   return (
