@@ -98,7 +98,7 @@ export const Projects = () => {
         title: "Portfolio",
         description: "A personal website made with ReactJS with a link to a personal website made with ReactJS with a link to a personal website with a link...",
         img: website,
-        link: "http://localhost:3000/",
+        link: "https://thezhangedman.github.io/personal-website/",
     },
   ];
 
